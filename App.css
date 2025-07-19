@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background-color: #f4f4f4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 32px;
+  color: #2563eb; /* Tailwind's blue-600 */
+  margin-bottom: 20px;
+}
+
+.editor-wrapper {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 900px;
+  padding: 20px;
+}
+
+.editor {
+  height: 400px;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
